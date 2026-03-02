@@ -1,0 +1,127 @@
+.wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    min-height: 90vh;
+}
+
+.leftPortion {
+    margin: 0 1.5rem 0 0;
+}
+
+.greetings {
+    font-size: 500%;
+    font-weight: 100;
+}
+
+.name {
+    font-size: 600%;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 100%;
+}
+
+.buttons {
+    margin: 1.5rem 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 330px) {
+    .leftPortion {
+        margin: 0 0 0 0;
+    }
+
+    .greetings {
+        font-size: 150%;
+    }
+
+    .name {
+        font-size: 200%;
+        font-weight: 500;
+    }
+
+    .rightPortion {
+        display: none;
+    }
+}
+
+@media (min-width: 331px) and (max-width: 575px) {
+    .leftPortion {
+        margin: 0 0 0 0;
+    }
+
+    .greetings {
+        font-size: 200%;
+    }
+
+    .name {
+        font-size: 250%;
+        font-weight: 500;
+    }
+
+    .rightPortion {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .leftPortion {
+        margin: 0 0 0 0;
+    }
+
+    .greetings {
+        font-size: 250%;
+    }
+
+    .name {
+        font-size: 300%;
+        font-weight: 500;
+    }
+
+    .rightPortion {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .leftPortion {
+        margin: 0 0 0 0;
+    }
+
+    .greetings {
+        font-size: 300%;
+    }
+
+    .name {
+        font-size: 400%;
+        font-weight: 500;
+    }
+
+    .rightPortion {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .leftPortion {
+        margin: 0 1.5rem 0 0;
+    }
+
+    .greetings {
+        font-size: 400%;
+    }
+
+    .name {
+        font-size: 500%;
+        font-weight: 500;
+    }
+
+    .rightPortion {
+        display: block;
+    }
+}

@@ -1,0 +1,21 @@
+.imageText {
+    padding: 0.5rem 0 0 0;
+    color: var(--grayed-text-color);
+}
+
+.desktopImage {
+    display: block;
+  }
+  
+  .mobileImage {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .desktopImage {
+      display: none;
+    }
+    .mobileImage {
+      display: block;
+    }
+  }

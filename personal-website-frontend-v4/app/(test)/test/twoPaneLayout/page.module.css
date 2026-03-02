@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.leftPane {
+    background-color: red;
+}
+
+.rightPane {
+    background-color: blue;
+}

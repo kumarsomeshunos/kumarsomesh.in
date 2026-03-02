@@ -1,0 +1,27 @@
+.main {
+    background: var(--defalut-backgroundButton);
+    border: var(--deafult-borderButton);
+    box-shadow: var(--default-box-shadowButton);
+    color: var(--default-colorButton);
+    padding: var(--default-paddingButton);
+    margin: var(--default-marginButton);
+    border-radius: var(--default-borderRadiusButton);
+    text-decoration: var(--default-textDecorationButton);
+    transition: var(--default-transitionButton);
+}
+
+.main:hover {
+    background: var(--defalut-backgroundButtonHover);
+    border: var(--deafult-borderButtonHover);
+    box-shadow: var(--default-box-shadowButtonHover);
+    color: var(--default-colorButtonHover);
+    padding: var(--default-paddingButtonHover);
+    margin: var(--default-marginButtonHover);
+    border-radius: var(--default-borderRadiusButtonHover);
+    text-decoration: var(--default-textDecorationButtonHover);
+    transition: var(--default-transitionButtonHover);
+}
+
+.main::after {
+    width: auto;
+}

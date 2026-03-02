@@ -1,0 +1,34 @@
+.main {
+    
+}
+
+.wrapper {
+    padding: 1rem;
+    border: var(--deafult-borderProjectCard);
+    border-radius: var(--default-borderRadiusProjectCard);
+}
+
+.wrapper > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--default-borderRadiusProjectCard);
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-size: 200%;
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}

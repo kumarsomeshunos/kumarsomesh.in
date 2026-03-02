@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Wrapper Component */
+  --default-backgroundMain: undefined;
+  --default-colorMain: undefined;
+  --default-backgroundWallpaper: undefined;
+
+  /* --default-backgroundWallpaper: repeating-linear-gradient(45deg, #ff7e5f, #ff7e5f 10px, #feb47b 10px, #feb47b 20px) center / cover no-repeat fixed; */
+  /* url("https://images.unsplash.com/photo-1715273157640-b0c2a2bec178?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMTA4MTF8&ixlib=rb-4.0.3&q=85") center / cover no-repeat fixed; */
+  --default-filterWallpaper: undefined;
+
+  /* Hero Component */
+  /* Create a black backgroundImageName and that should be default. */
+  /* --default-backgroundImageName: url("https://i.pinimg.com/originals/c6/df/a2/c6dfa22150790c670c988c5196f6ba0e.gif"); */
+  --default-backgroundImageName: url("https://cdn.dribbble.com/users/4025749/screenshots/7319596/media/e8e15b54c947cdc39e9abe93a9080e73.gif");
+  /* --default-backgroundImageName: linear-gradient(90deg, rgba(34, 122, 255, 1) 0%, rgba(40, 201, 250, 1) 38%, rgba(14, 137, 219, 1) 75%); */
+
+  /* Main Button Component */
+  --defalut-backgroundButton: undefined;
+  --deafult-borderButton: 2px solid black;
+  --default-box-shadowButton: undefined;
+  --default-colorButton: undefined;
+  --default-paddingButton: 0.5rem 1rem;
+  --default-marginButton: 1rem 1rem 0 0;
+  --default-borderRadiusButton: undefined;
+  --default-textDecorationButton: undefined;
+  --default-transitionButton: all 0.5s ease-in-out;
+  --defalut-backgroundButtonHover: black;
+  --deafult-borderButtonHover: 2px solid black;
+  --default-box-shadowButtonHover: none;
+  --default-colorButtonHover: white;
+  --default-paddingButtonHover: 0.5rem 1rem;
+  --default-marginButtonHover: 1rem 1rem 0 0;
+  --default-borderRadiusButtonHover: undefined;
+  --default-textDecorationButtonHover: undefined;
+  --default-transitionButtonHover: all 0.5s ease-in-out;
+
+  /* Project Card Component */
+  --defalut-backgroundProjectCard: undefined;
+  --deafult-borderProjectCard: 1px solid black;
+  --default-box-shadowProjectCard: undefined;
+  --default-colorProjectCard: inherit;
+  --default-borderRadiusProjectCard: 1rem;
+  --default-textDecorationProjectCard: undefined;
+  --default-transitionProjectCard: all 0.5s ease-in-out;
+  --defalut-backgroundProjectCardHover: undefined;
+  --deafult-borderProjectCardHover: 1px solid black;
+  --default-box-shadowProjectCardHover: undefined;
+  --default-colorProjectCardHover: inherit;
+  --default-borderRadiusProjectCardHover: 1rem;
+  --default-textDecorationProjectCardHover: undefined;
+  --default-transitionProjectCardHover: all 0.5s ease-in-out;
+
+  /* Blog Card Component */
+  --defalut-backgroundBlogCard: undefined;
+  --deafult-borderBlogCard: 1px solid black;
+  --default-box-shadowBlogCard: undefined;
+  --default-colorBlogCard: inherit;;
+  --default-borderRadiusBlogCard: 1rem;
+  --default-textDecorationBlogCard: undefined;
+  --default-transitionBlogCard: all 0.5s ease-in-out;
+  --defalut-backgroundBlogCardHover: undefined;
+  --deafult-borderBlogCardHover: 1px solid black;
+  --default-box-shadowBlogCardHover: undefined;
+  --default-colorBlogCardHover: inherit;
+  --default-borderRadiusBlogCardHover: 1rem;
+  --default-textDecorationBlogCardHover: undefined;
+  --default-transitionBlogCardHover: all 0.5s ease-in-out;
+
+  /* Anchor Tag */
+  --default-link-border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  --default-link-background-color: black;
+
+  --grayed-text-color: #9C9C9C
+}
+
+/* paragraph line height */
+p {
+  line-height: 1.75;
+}
+
+/* links underline animation */
+a {
+  text-decoration: none;
+  position: relative;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  border-radius: 1rem;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Hide scrollbar for all elements in modern webkit-based browsers (Chrome, Safari) */
+* {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For IE and Edge */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */

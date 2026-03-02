@@ -1,0 +1,13 @@
+.main {
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.quote {
+    padding: 0.25rem 0;
+}

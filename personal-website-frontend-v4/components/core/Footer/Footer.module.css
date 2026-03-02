@@ -1,0 +1,79 @@
+.main {
+    border-top: 1px solid black;
+}
+
+.wrapper {
+    min-height: 18rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+.leftPortion {
+    width: 40%;
+    margin: 0 0.5rem 0 0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.leftPortion>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 0 1.5rem 0 0;
+}
+
+.rightPortion {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.linkHeading {
+    font-size: 130%;
+    font-weight: 500;
+    margin: 0.5rem 0;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.li {
+    margin-right: 2rem;
+    list-style: none;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .rightPortion {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .leftPortion {
+        width: 100%;
+        margin: 0 0 0.5rem 0;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .leftPortion {
+        flex-wrap: wrap;
+        margin: 0 0 0.5rem 0;
+
+    }
+
+    .leftPortion > img {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: auto;
+    }
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 0 0 1.5rem 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

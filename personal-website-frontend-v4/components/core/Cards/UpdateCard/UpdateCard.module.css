@@ -1,0 +1,25 @@
+.main {
+    margin: 1rem 0rem 0rem 0rem;
+    width: 100%;
+    background: var(--defalut-backgroundProjectCard);
+    border: var(--deafult-borderProjectCard);
+    box-shadow: var(--default-box-shadowProjectCard);
+    color: var(--default-colorProjectCard);
+    border-radius: var(--default-borderRadiusProjectCard);
+    text-decoration: var(--default-textDecorationProjectCard);
+    transition: var(--default-transitionProjectCard);
+}
+
+.main:hover {
+    background: var(--defalut-backgroundProjectCardHover);
+    border: var(--deafult-borderProjectCardHover);
+    box-shadow: var(--default-box-shadowProjectCardHover);
+    color: var(--default-colorProjectCardHover);
+    border-radius: var(--default-borderRadiusProjectCardHover);
+    text-decoration: var(--default-textDecorationProjectCardHover);
+    transition: var(--default-transitionProjectCardHover);
+}
+
+.wrapper {
+    padding: 1rem;
+}

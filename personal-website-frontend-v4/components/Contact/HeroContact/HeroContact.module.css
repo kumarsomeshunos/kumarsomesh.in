@@ -1,0 +1,87 @@
+.wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.leftPortion {
+    width: 100%;
+    padding: 0 1.5rem 0 0;
+    border-right: 1px solid white;
+}
+
+.rightPortion {
+    width: 100%;
+    padding: 0 0 0 1.5rem;
+}
+
+.formGroup {
+    margin: 0 0 1.5rem 0;
+}
+
+.formInput {
+    width: 100%;
+    height: 3rem;
+    padding: 0 1.5rem;
+    margin: 0 0 0.5rem 0;
+    /* background-color: #000; */
+    border: 1px solid #000;
+    border-radius: 1rem;
+}
+
+.fromTextArea {
+    width: 100%;
+    height: 10rem;
+    padding: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    border: 1px solid #000;
+    /* background-color: #000; */
+    border-radius: 1rem;
+}
+
+.socialMediaLinks {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+
+    .rightPortion {
+        width: 100%;
+        border-radius: 10px;
+        padding: 0;
+    }
+    
+    .leftPortion {
+        width: 100%;
+        margin: 0 0 1.5rem 0;
+        border-radius: 10px;
+        border: none;
+        padding: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .leftPortion {
+        flex-wrap: wrap;
+        margin: 0 0 1.5rem 0;
+        border: none;
+        padding: 0;
+    }
+
+    .leftPortion > img {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .rightPortion {
+        padding: 0;
+    }
+}

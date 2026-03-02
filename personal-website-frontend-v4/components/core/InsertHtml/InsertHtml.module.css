@@ -1,0 +1,115 @@
+/* Text Level Semantics */
+.externalHtml h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.externalHtml h2 {
+    font-size: 1.5em;
+    margin: 0.75em 0;
+}
+
+.externalHtml h3 {
+    font-size: 1.17em;
+    margin: 0.83em 0;
+}
+
+.externalHtml h4 {
+    font-size: 1em;
+    margin: 1.12em 0;
+}
+
+.externalHtml h5 {
+    font-size: 0.83em;
+    margin: 1.5em 0;
+}
+
+.externalHtml h6 {
+    font-size: 0.75em;
+    margin: 1.67em 0;
+}
+
+.externalHtml p {
+    margin: 1em 0;
+}
+
+.externalHtml b,
+.externalHtml strong {
+    font-weight: bolder;
+}
+
+.externalHtml i,
+.externalHtml em {
+    font-style: italic;
+}
+
+.externalHtml u {
+    text-decoration: underline;
+}
+
+.externalHtml small {
+    font-size: 80%;
+}
+
+.externalHtml sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.externalHtml sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+.externalHtml mark {
+    background-color: yellow;
+    color: black;
+}
+
+/* Grouping content */
+.externalHtml ul,
+.externalHtml menu,
+.externalHtml dir {
+    display: block;
+    list-style-type: disc;
+    margin: 1em 0;
+    padding: 0 40px;
+}
+
+.externalHtml ol {
+    display: block;
+    list-style-type: decimal;
+    margin: 1em 0;
+    padding: 0 40px;
+}
+
+.externalHtml li {
+    display: list-item;
+}
+
+.externalHtml dl {
+    display: block;
+    margin: 1em 0;
+}
+
+.externalHtml dt {
+    font-weight: bold;
+}
+
+.externalHtml dd {
+    margin-left: 40px;
+}
+
+.externalHtml pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+.externalHtml hr {
+    display: block;
+    margin: 1em 0;
+    border-style: inset;
+    border-width: 1px;
+}

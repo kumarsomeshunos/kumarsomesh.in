@@ -1,0 +1,34 @@
+.thumbnail {
+    width: 100%;
+}
+
+.thumbnail img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    box-shadow: var(--image-box-shadow);
+    border-radius: 10px;
+}
+
+.divTime {
+    margin: 0 0 1rem 0;
+}
+
+.time {
+    color: #9C9C9C;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.tag {
+    background-color: #434343;
+    color: white;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.1rem;
+    box-shadow: 4px -4px 8px 0px rgba(0, 0, 0, 0.25) inset;
+}

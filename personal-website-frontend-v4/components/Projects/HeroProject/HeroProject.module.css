@@ -1,0 +1,60 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    padding: 1.5rem 0;
+    align-items: center;
+}
+
+.leftPortion {
+    width: 60%;
+    margin: 0 3rem 0 0;
+}
+
+.rightPortion {
+    width: 40%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description {
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        flex-wrap: wrap-reverse;
+    }
+
+    .rightPortion {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .leftPortion {
+        width: 100%;
+        margin: 0 0 0.5rem 0;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .leftPortion {
+        flex-wrap: wrap-reverse;
+        margin: 0 0 0.5rem 0;
+
+    }
+
+    .leftPortion > img {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: auto;
+    }
+}
